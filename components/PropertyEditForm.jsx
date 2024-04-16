@@ -201,7 +201,7 @@ const PropertyEditForm = () => {
           ></textarea>
         </div>
 
-        <div className='mb-4 bg-blue-50 p-4'>
+        <div className='mb-4 bg-orange-50 p-4'>
           <label className='block text-gray-700 font-bold mb-2'>Location</label>
           <input
             type='text'
@@ -489,7 +489,7 @@ const PropertyEditForm = () => {
           </div>
         </div>
 
-        <div className='mb-4 bg-blue-50 p-4'>
+        <div className='mb-4 bg-orange-50 p-4'>
           <label className='block text-gray-700 font-bold mb-2'>
             Rates (Leave blank if not applicable)
           </label>
@@ -591,7 +591,7 @@ const PropertyEditForm = () => {
 
         <div>
           <button
-            className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline'
+            className='bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline'
             type='submit'
           >
             Update Property
