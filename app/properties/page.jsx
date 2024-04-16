@@ -1,5 +1,4 @@
 import PropertyCard from '@/components/PropertyCard';
-import { Error } from 'mongoose';
 import { fetchProperties } from '@/utils/requests';
 // import properties from '@/properties.json';
 
