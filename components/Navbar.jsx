@@ -200,7 +200,7 @@ const Navbar = () => {
                       tabIndex='-1'
                       id='user-menu-item-0'
                       onClick={() => {
-                        setIsMobileMenuOpen((prev) => !prev);
+                        setIsProfileMenuOpen(false);
                       }}
                     >
                       Your Profile
@@ -212,14 +212,14 @@ const Navbar = () => {
                       tabIndex='-1'
                       id='user-menu-item-2'
                       onClick={() => {
-                        setIsMobileMenuOpen((prev) => !prev);
+                        setIsProfileMenuOpen(false);
                       }}
                     >
                       Saved Properties
                     </Link>
                     <button
                       onClick={() => {
-                        setIsMobileMenuOpen((prev) => !prev);
+                        setIsProfileMenuOpen(false);
                         signOut();
                       }}
                       className='block px-4 py-2 text-sm text-gray-700'
