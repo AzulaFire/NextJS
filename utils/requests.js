@@ -46,7 +46,7 @@ async function fetchProperty(id) {
 
 // Fetch Featured Properties
 
-async function fetchFeaturedProperties() {
+async function fetchFeaturedProperties({ showFeatured = true } = {}) {
   try {
     // Handle the case where the domain is not available yet.
 
