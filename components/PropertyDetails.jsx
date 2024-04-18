@@ -60,23 +60,22 @@ const PropertyDetails = ({ property }) => {
 
       <div className='bg-white p-6 rounded-lg shadow-md mt-6'>
         <h3 className='text-lg font-bold mb-6'>Description & Details</h3>
-        <div className='flex justify-center gap-4 text-orange-500 mb-4 text-xl space-x-9'>
+        <div className='flex justify-center gap-4 text-gray-500 mb-4 text-xl space-x-9'>
           <p>
             <FaBed className='mr-2 inline-block' /> {property.beds}
-            <span className='md:hidden sm:inline'>
+            <span className='inline'>
               {property.beds > 1 ? ' Beds' : ' Bed'}
             </span>
           </p>
           <p>
             <FaBath className='mr-2 inline-block' /> {property.baths}
-            <span className='md:hidden sm:inline'>
+            <span className='inline'>
               {property.baths > 1 ? ' Baths' : ' Bath'}
             </span>
           </p>
           <p>
             <FaRulerCombined className='mr-2 inline-block' />
-            {property.square_feet}{' '}
-            <span className='hidden sm:inline'>sqft</span>
+            {property.square_feet} <span className='inline'>sqft</span>
           </p>
         </div>
         <p className='text-gray-500 mb-4 text-center'>{property.description}</p>
